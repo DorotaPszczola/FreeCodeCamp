@@ -1,0 +1,44 @@
+#title, #description {
+    text-align: center;
+  }
+  #survey-form {
+    background: lightgrey;
+    width: 70vw;
+    margin: 0 auto;
+  }
+  #description {
+    padding-top: 20px;
+  }
+  .row {
+    display: block;
+  }
+  
+  #group1, #group2 {
+    list-style: none;
+    
+  }
+  
+  .labels {
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+  .right-col {
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    margin-top: 10px;
+  }
+  #submit {
+    display: inline-block;
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+  }

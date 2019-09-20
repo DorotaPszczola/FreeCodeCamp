@@ -1,0 +1,125 @@
+
+
+<head>
+        <link rel="stylesheet" href="survey_form.css">
+</head>
+
+<body id="main">
+  
+  <h1 id="title">Survey Form</h1>
+  
+  <form id="survey-form">
+   <p id="description">This form collects data from user</p>
+    
+    <div class="row">
+      <div class="labels">
+        <label id="name-label" class="label" for="name">Name:</label>
+        
+      </div>
+      <div class="right-col">
+       <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="labels">
+        <label id="email-label" class="label" for="email">E-mail:</label>
+      </div>
+      <div class="right-col">
+        <input type="email" id="email" placeholder="Enter your e-mail address" required>
+      </div>
+    </div>
+    
+    
+     <div class="row">
+      <div class="labels">
+        <label id="number-label" class="label" for="number">Age:</label>
+      </div>
+      <div class="right-col">
+        <input type="number" id="number" placeholder="Enter your age " required min="0" max="100">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="labels">
+        <label id="dropdown-label" class="label" for="dropdown">Choice:</label>
+      </div>
+      <div class="right-col">
+        <select id="dropdown" placeholder="Choose one" required>
+          <option value="choice 1">Choice 1</option>
+          <option value="choice 2">Choice 2</option>
+          <option value="choice 3">Choice 3</option>
+        </select>
+      </div>
+      
+      <div class="row">
+        <label class="labels">What color do you like?
+        </label>
+        <ul id="group1" class="right-col">
+          <li class="radio">
+            <label>
+              <input name="group1" type="radio" value="1">yellow
+            </label>
+          </li>
+          <li class="radio">
+            <label>
+              <input name="group1" type="radio" value="2">red
+            </label>
+          </li>
+          <li class="radio">
+            <label>
+              <input name="group1" type="radio" value="3">blue
+            </label>
+          </li>
+        </ul>
+        
+      </div>
+      
+      <div class="row">
+        <label class="labels">Which cities have you been to?
+        </label>
+        <ul id="group2" class="right-col">
+          <li class="checkbox">
+            <label>
+              <input name="group2" type="checkbox" value="1">Paris
+            </label>
+          </li>
+          <li class="radio">
+            <label>
+              <input name="group2" type="checkbox" value="2">London
+            </label>
+          </li>
+          <li class="radio">
+            <label>
+              <input name="group2" type="checkbox" value="3">Rome
+            </label>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="row">
+        <label class="labels">Comments:
+        </label>
+        <textarea id="comments" >
+        </textarea>
+      </div>
+      
+      <div class="row">
+        <label class="labels">
+        </label>
+      
+        <div class="right-col">
+           <button id="submit"  type="submit">Submit
+            </button>
+        </div>
+       
+      </div>
+        
+    </div>
+    
+  </form>
+  
+</body>
+
+<footer>
+</footer>
