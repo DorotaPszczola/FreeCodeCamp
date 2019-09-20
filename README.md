@@ -1,4 +1,4 @@
 # FreeCodeCamp
 Projects for FCC
 
-Just a small exercise
+Just a few minor exercises
